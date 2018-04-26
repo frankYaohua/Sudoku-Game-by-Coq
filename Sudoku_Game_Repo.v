@@ -6,16 +6,18 @@ Author: Yaohua Zhao
 
 Date: 2018.04.25
 
-Total Number of Levels: XXX
-
 Last Update: 2018.04.25
 
-Description:
-This is the Sudoku game repo. The difficulity is increasing with increasing of
-the level number. There are total XXX from level_0 to level XXX in the repo.
-Feel free to add you own Sudoku question. But do not forget the cursor symbol "+".
+Total Number of Easy: 5
+Total Number of Medium: 1
+Total Number of Hard: 1
 
-References: 
+Description:
+This is the Sudoku game repo. The difficulity is indicated with "easy", "medium" and
+"hard". There are total 7 questions in the repo. Feel free to add you own Sudoku 
+question. But do not forget the cursor indicator "+" and cursor symbol "X".
+
+References: https://www.puzzles.ca/sudoku/
 
 *)
 
@@ -26,8 +28,8 @@ Set Implicit Arguments.
 Unset Strict Implicit.
 Require Export Sudoku_Engine_Final.
 
-(* level_0 is just for tutorial *)
-Definition level_0 :=
+(* level_0 is just for tutorial purpose *)
+Definition easy_0 :=
   +> X 2 3 4 5 6 7 8 9 <|
   |> 4 5 6 7 8 9 1 2 3 <|
   |> 7 8 9 1 2 3 4 5 6 <|
@@ -40,8 +42,8 @@ Definition level_0 :=
   |><|
   .
 
-Definition level_1 :=
-  +> 5 3 _ _ 7 _ _ _ _ <|
+Definition easy_1 :=
+  +> 5 3 X _ 7 _ _ _ _ <|
   |> 6 _ _ 1 9 5 _ _ _ <|
   |> _ 9 8 _ _ _ _ 6 _ <|
   |> 8 _ _ _ 6 _ _ _ 3 <|
@@ -53,7 +55,7 @@ Definition level_1 :=
   |><|
   .
 
-Definition level_2 :=
+Definition easy_2 :=
   +> 1 3 X 2 _ _ 7 4 _ <|
   |> _ 2 5 _ 1 _ _ _ _ <|
   |> 4 8 _ _ 6 _ _ 5 _ <|
@@ -63,5 +65,57 @@ Definition level_2 :=
   |> _ 4 _ _ _ 6 8 9 _ <|
   |> _ 5 3 _ _ 1 4 _ _ <|
   |> 6 _ _ _ _ _ _ _ _ <|
+  |><|
+  .
+
+Definition easy_3 :=
+  +> 1 X _ _ _ _ 2 7 6 <|
+  |> _ _ 9 1 4 _ _ _ _ <|
+  |> _ 2 _ _ _ 6 _ 9 1 <|
+  |> _ 8 _ _ _ 9 6 1 _ <|
+  |> 7 3 _ _ 8 4 _ _ _ <|
+  |> _ _ 2 _ _ 5 _ 8 _ <|
+  |> 5 _ 6 _ _ 3 _ _ _  <|
+  |> _ _ 7 _ _ _ _ 5 _ <|
+  |> 3 4 _ 5 9 _ _ _ _ <|
+  |><|
+  .
+
+Definition easy_4 :=
+  +> 1 X _ _ _ _ 2 7 6 <|
+  |> _ _ 9 1 4 _ _ _ _ <|
+  |> _ 2 _ _ _ 6 _ 9 1 <|
+  |> _ 8 _ _ _ 9 6 1 _ <|
+  |> 7 3 _ _ 8 4 _ _ _ <|
+  |> _ _ 2 _ _ 5 _ 8 _ <|
+  |> 5 _ 6 _ _ 3 _ _ _ <|
+  |> _ _ 7 _ _ _ _ 5 _ <|
+  |> 3 4 _ 5 9 _ _ _ _ <|
+  |><|
+  .
+
+Definition medium_1 :=
+  +> 8 9 2 X _ 3 _ 1 4 <|
+  |> _ _ _ _ _ _ _ _ _ <|
+  |> _ _ _ _ 6 8 _ 7 _ <|
+  |> 4 5 _ _ 8 _ _ _ 1 <|
+  |> _ _ 8 _ _ _ 2 _ _ <|
+  |> 1 _ 3 7 _ _ 5 _ _ <|
+  |> _ 7 1 _ _ 6 _ 5 _ <|
+  |> 5 _ 9 2 _ _ _ 8 _ <|
+  |> 6 _ _ _ _ 7 _ _ 9 <|
+  |><|
+  .
+
+Definition hard_1 :=
+  +> 6 X _ _ 9 1 _ _ _ <|
+  |> _ 4 _ 7 _ _ _ _ _ <|
+  |> 8 _ _ _ _ _ _ 2 3 <|
+  |> _ _ 9 _ _ _ 4 8 _ <|
+  |> _ _ _ 6 _ 8 _ 5 _ <|
+  |> _ 1 _ _ 3 _ _ _ _ <|
+  |> _ _ _ _ _ 7 1 _ _ <|
+  |> _ 2 _ _ _ _ 6 _ _ <|
+  |> _ _ _ _ 6 _ _ _ _ <|
   |><|
   .
