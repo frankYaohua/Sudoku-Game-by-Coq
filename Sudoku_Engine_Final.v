@@ -1,5 +1,8 @@
 (*
 
+"Warning!!!"
+"Compile each File before Playing the Sudoku Game: Compile -> Compile Buffer"
+
 Name: Sudoku_Engine_Final (a part of Sudoku_Coq, final project of CS386L)
 
 Author: Yaohua Zhao

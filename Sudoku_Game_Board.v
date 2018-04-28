@@ -1,5 +1,8 @@
 (*
 
+"Warning!!!"
+"Compile each File before Playing the Sudoku Game: Compile -> Compile Buffer"
+
 Name: Sudoku_Game_Board (a part of Sudoku_Coq, final project of CS386L)
 
 Author: Yaohua Zhao
@@ -44,9 +47,9 @@ Question Repo:
 The predefined questions can be found in the "Sudoku_Game_Repo.v" file.
 Qestion name is: "difficulty_number" e.g. easy_0, medium_1, hard_1.
 Total number of questions are shown below.
-easy: 0-4
-medium: 1-
-hard: 1-
+easy: 0-5
+medium: 1-3
+hard: 1-3
 
 *)
 
