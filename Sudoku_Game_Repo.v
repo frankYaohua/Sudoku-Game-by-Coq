@@ -12,12 +12,12 @@ Date: 2018.04.25
 Last Update: 2018.04.25
 
 Total Number of Easy: 6
-Total Number of Medium: 3
+Total Number of Medium: 5
 Total Number of Hard: 3
 
 Description:
 This is the Sudoku game repo. The difficulity is indicated with "easy", "medium" and
-"hard". There are total 7 questions in the repo. Feel free to add you own Sudoku 
+"hard". There are total 14 questions in the repo. Feel free to add you own Sudoku 
 question. But do not forget the cursor indicator "+" and cursor symbol "X".
 
 References: https://www.puzzles.ca/sudoku/
@@ -149,6 +149,32 @@ Definition medium_3 :=
   |><|
   .
 
+Definition medium_4 :=
+  +> X _ _ 4 _ _ _ 5 _ <|
+  |> _ _ 4 _ 6 _ 8 _ _ <|
+  |> _ _ _ 2 _ 8 4 _ _ <|
+  |> _ _ _ 3 5 _ _ 6 _ <|
+  |> _ 9 5 _ 1 2 _ _ _ <|
+  |> _ 6 7 _ _ _ _ _ _ <|
+  |> _ 7 _ _ _ _ _ 8 1 <|
+  |> _ 1 _ _ 9 _ _ 2 _ <|
+  |> _ 5 _ _ _ _ 7 _ _ <|
+  |><|
+  .
+
+Definition medium_5 :=
+  +> X 7 _ _ 9 _ _ _ _ <|
+  |> _ _ _ _ _ _ _ _ 4 <|
+  |> _ _ _ 6 2 8 _ _ _ <|
+  |> 3 5 _ _ _ _ _ 7 _ <|
+  |> _ _ _ 1 _ _ _ _ 6 <|
+  |> _ 8 2 4 _ _ _ _ 3 <|
+  |> _ _ _ _ 7 _ _ _ _ <|
+  |> 9 _ 6 2 _ _ _ _ _ <|
+  |> _ _ _ _ _ _ 9 8 _ <|
+  |><|
+  .
+
 Definition hard_1 :=
   +> 6 X _ _ 9 1 _ _ _ <|
   |> _ 4 _ 7 _ _ _ _ _ <|
@@ -185,5 +211,31 @@ Definition hard_3 :=
   |> 7 _ _ _ _ _ 1 _ _ <|
   |> _ _ 2 _ _ _ 7 _ 6 <|
   |> _ _ 6 1 _ _ _ _ 8 <|
+  |><|
+  .
+
+Definition hard_4 :=
+  +> 3 X _ _ _ _ _ _ _ <|
+  |> 6 _ _ 1 7 9 _ _ _ <|
+  |> _ 5 _ _ _ _ _ _ 4 <|
+  |> 1 _ _ _ 6 _ 5 _ _ <|
+  |> _ _ _ _ 5 _ 2 9 3 <|
+  |> _ _ 2 _ _ 3 _ _ 7 <|
+  |> _ _ 6 _ 8 _ _ _ _ <|
+  |> _ 9 _ _ _ _ _ _ _ <|
+  |> _ _ _ 5 _ _ _ 6 _ <|
+  |><|
+  .
+
+Definition hard_5 :=
+  +> 2 3 5 4 X _ _ _ _ <|
+  |> 7 9 _ 2 6 _ _ _ 5 <|
+  |> _ _ _ _ _ _ _ _ 2 <|
+  |> _ 7 8 5 _ _ 1 _ 4 <|
+  |> _ 5 9 1 _ _ _ 8 3 <|
+  |> _ _ 6 _ 4 _ 9 _ _ <|
+  |> _ 6 _ _ 1 _ 7 _ 8 <|
+  |> _ _ _ _ _ 2 _ _ _ <|
+  |> _ _ _ 6 _ _ 3 2 _ <|
   |><|
   .
