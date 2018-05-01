@@ -13,11 +13,11 @@ Last Update: 2018.04.25
 
 Total Number of Easy: 6
 Total Number of Medium: 5
-Total Number of Hard: 3
+Total Number of Hard: 5
 
 Description:
 This is the Sudoku game repo. The difficulity is indicated with "easy", "medium" and
-"hard". There are total 14 questions in the repo. Feel free to add you own Sudoku 
+"hard". There are total 16 questions in the repo. Feel free to add you own Sudoku 
 question. But do not forget the cursor indicator "+" and cursor symbol "X".
 
 References: https://www.puzzles.ca/sudoku/
