@@ -54,7 +54,6 @@ hard: 1-3
 *)
 
 (* add you own path here, which is absolute path *)
-Add LoadPath "~/coqFinal/Sudoku_Coq".
 Set Implicit Arguments.
 Unset Strict Implicit.
 Require Export Sudoku_Engine_Final.

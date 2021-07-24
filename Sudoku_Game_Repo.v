@@ -25,7 +25,6 @@ References: https://www.puzzles.ca/sudoku/
 *)
 
 (* add you own path here, which is absolute path *)
-Add LoadPath "~/coqFinal/Sudoku_Coq".
 
 Set Implicit Arguments.
 Unset Strict Implicit.
