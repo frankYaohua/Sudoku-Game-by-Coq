@@ -19,12 +19,16 @@ Copy the repo:
 git clone https://github.com/frankYaohua/Sudoku_Coq.git
 ```
 
-Open three .v files and compile -> compile buffer of each of them. Basically, it is like make .java to .class.
+Open three .v files and compile -> compile buffer of each of them.
 
+**Deprecated:** (Reference: https://coq.discourse.group/t/add-loadpath-in-coq-8-12-2/1211/4)
 Modify the Path to your folder's own absolute path. You can find this line on the nearly top of the files.
 ```
 Add LoadPath "<your own absolute path>". (e.g. Add LoadPath "~/coqFinal/Sudoku_Coq".)
 ```
+**Edit:**
+No need to do anything but just compile and run. There is a new `_CoqProject` file handles all of this dependancies for you.
+
 
 ## Running the Tutorial
 
