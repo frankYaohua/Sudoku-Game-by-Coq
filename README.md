@@ -1,6 +1,8 @@
 # Sudoku Game by Using Coq Philosophy
 
-The Sudoku game is developed by coq from a mathematical perspective. The Sudoku game is a Goal or Theorem which needs to be proved by using given tactics. The Sudoku project has overall three sections, Sudoku Engine (which provides the basic logics, checks, tactics and UI of the Sudoku game), Sudoku Game Repo (which stores some of predefined Sudoku questions from easy mode to hard mode) and Sudoku Game Board (which is the starting page of the game).
+The Sudoku game is developed by coq from a mathematical perspective. The Sudoku game is a Goal or Theorem which needs to be proved by using given tactics. The Sudoku project has overall three sections, Sudoku Engine (which provides the basic logic, checks, tactics, and UI of the Sudoku game), Sudoku Game Repo (which stores some of the predefined Sudoku questions from easy mode to hard mode), and Sudoku Game Board (which is the starting page of the game).
+
+[Video Demo](https://www.youtube.com/watch?v=TYWbiGUijEs)
 
 ## Getting Started
 
@@ -55,10 +57,10 @@ Qed.
 Save solution. Print solution.
 ``` 
 ### Tutorial Question UI Snippet
-* X : Cursor, 
-* _ : Empty Space,
-* 1 : Prefilled Number,
-* +> : The row cursor currently in
+* X : Cursor
+* _ : Empty space
+* 1-9 : Prefilled number
+* +> : The active row indicator
 ```
 1 subgoal
 ______________________________________(1/1)
